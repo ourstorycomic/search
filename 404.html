@@ -236,11 +236,16 @@
                                         </ul>
                                     </div>
                                     <div class="footer-search">
-                                        <form action="#">
-                                            <input type="text" placeholder="Search...">
-                                            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                        </form>
-                                    </div>
+    <div class="box-search" id="search2">
+        <form class="row" @submit.prevent>
+            <div class="col-12 col-7-m col-8-l col-10-xl">
+                <input class="field" id="username" type="text" placeholder="Find favorite project" v-model="username">
+            </div>
+            <div class="col-12 col-5-m col-4-l col-2-xl">
+                <button @click="coder" class="button"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
+    </div>
                                 </div>
                             </div>
                         </div>
@@ -344,6 +349,7 @@
         <script src="assets/js/main.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
         <script src="assets/js/searchproject.js"></script>
+        <script src="assets/js/searchproject2.js"></script>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
     </body>
 
