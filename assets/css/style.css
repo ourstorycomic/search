@@ -925,7 +925,7 @@ label {
 }
 .navbar-wrap ul li .submenu li.active > a,
 .navbar-wrap ul li .submenu li:hover > a {
-	color: #fff;
+	color: #8f0009;
 }
 .navbar-wrap ul li:hover > .submenu {
 	opacity: 1;
