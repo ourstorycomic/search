@@ -484,6 +484,12 @@ $('.latest-movie-nav button').on('click', function (event) {
 	$(this).addClass('active');
 	event.preventDefault();
 });
+/*=============================================
+	=    		 COPYRIGHT YEAR	         =
+=============================================*/
+
+    var date = new Date().getFullYear();
+    document.getElementById("year").innerHTML = date;
 
 
 /*=============================================
