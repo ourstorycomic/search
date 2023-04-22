@@ -5243,3 +5243,6 @@ loading-center div {
 .plyr--video .plyr__control svg {
   filter: none;
 }
+::-webkit-scrollbar {
+    display: none;
+}
